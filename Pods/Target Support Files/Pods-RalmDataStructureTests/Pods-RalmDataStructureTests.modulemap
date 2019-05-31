@@ -1,0 +1,6 @@
+framework module Pods_RalmDataStructureTests {
+  umbrella header "Pods-RalmDataStructureTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
