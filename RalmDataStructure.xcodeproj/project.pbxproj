@@ -17,8 +17,11 @@
 		AA1FAF2022A1151100893D9B /* RalmDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1FAF1F22A1151000893D9B /* RalmDataStructureTests.swift */; };
 		AA1FAF2B22A1151100893D9B /* RalmDataStructureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1FAF2A22A1151100893D9B /* RalmDataStructureUITests.swift */; };
 		AA9E8CDF22A11649009CBDA2 /* GraphQLAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E8CDE22A11649009CBDA2 /* GraphQLAPI.swift */; };
-		AA9E8CE122A116D6009CBDA2 /* EntityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E8CE022A116D6009CBDA2 /* EntityStore.swift */; };
-		AA9E8CE322A118D8009CBDA2 /* EntityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E8CE222A118D8009CBDA2 /* EntityRepository.swift */; };
+		AA9E8CE122A116D6009CBDA2 /* DogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E8CE022A116D6009CBDA2 /* DogStore.swift */; };
+		AA9E8CE322A118D8009CBDA2 /* DogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E8CE222A118D8009CBDA2 /* DogRepository.swift */; };
+		AA9E8CE522A143F2009CBDA2 /* DogParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E8CE422A143F2009CBDA2 /* DogParser.swift */; };
+		AA9E8CE722A14444009CBDA2 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E8CE622A14444009CBDA2 /* Dog.swift */; };
+		AA9E8CE922A1446E009CBDA2 /* Dogable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E8CE822A1446E009CBDA2 /* Dogable.swift */; };
 		EB7DFB1CF636E2E738004477 /* Pods_RalmDataStructureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AF91EF06DD3A548C2D3C4D /* Pods_RalmDataStructureTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +63,11 @@
 		AA1FAF2A22A1151100893D9B /* RalmDataStructureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RalmDataStructureUITests.swift; sourceTree = "<group>"; };
 		AA1FAF2C22A1151100893D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9E8CDE22A11649009CBDA2 /* GraphQLAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLAPI.swift; sourceTree = "<group>"; };
-		AA9E8CE022A116D6009CBDA2 /* EntityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityStore.swift; sourceTree = "<group>"; };
-		AA9E8CE222A118D8009CBDA2 /* EntityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityRepository.swift; sourceTree = "<group>"; };
+		AA9E8CE022A116D6009CBDA2 /* DogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogStore.swift; sourceTree = "<group>"; };
+		AA9E8CE222A118D8009CBDA2 /* DogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRepository.swift; sourceTree = "<group>"; };
+		AA9E8CE422A143F2009CBDA2 /* DogParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogParser.swift; sourceTree = "<group>"; };
+		AA9E8CE622A14444009CBDA2 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		AA9E8CE822A1446E009CBDA2 /* Dogable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogable.swift; sourceTree = "<group>"; };
 		BC942017C289BDF716D3527C /* Pods-RalmDataStructureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RalmDataStructureUITests.release.xcconfig"; path = "Target Support Files/Pods-RalmDataStructureUITests/Pods-RalmDataStructureUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CED2B3CF8FB7E6DF4A15694B /* Pods-RalmDataStructureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RalmDataStructureTests.release.xcconfig"; path = "Target Support Files/Pods-RalmDataStructureTests/Pods-RalmDataStructureTests.release.xcconfig"; sourceTree = "<group>"; };
 		D1AF91EF06DD3A548C2D3C4D /* Pods_RalmDataStructureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RalmDataStructureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,8 +143,11 @@
 				AA1FAF1322A1151000893D9B /* LaunchScreen.storyboard */,
 				AA1FAF1622A1151000893D9B /* Info.plist */,
 				AA9E8CDE22A11649009CBDA2 /* GraphQLAPI.swift */,
-				AA9E8CE022A116D6009CBDA2 /* EntityStore.swift */,
-				AA9E8CE222A118D8009CBDA2 /* EntityRepository.swift */,
+				AA9E8CE022A116D6009CBDA2 /* DogStore.swift */,
+				AA9E8CE222A118D8009CBDA2 /* DogRepository.swift */,
+				AA9E8CE422A143F2009CBDA2 /* DogParser.swift */,
+				AA9E8CE622A14444009CBDA2 /* Dog.swift */,
+				AA9E8CE822A1446E009CBDA2 /* Dogable.swift */,
 			);
 			path = RalmDataStructure;
 			sourceTree = "<group>";
@@ -395,11 +404,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9E8CE722A14444009CBDA2 /* Dog.swift in Sources */,
 				AA1FAF0D22A1150F00893D9B /* ViewController.swift in Sources */,
 				AA9E8CDF22A11649009CBDA2 /* GraphQLAPI.swift in Sources */,
-				AA9E8CE122A116D6009CBDA2 /* EntityStore.swift in Sources */,
+				AA9E8CE122A116D6009CBDA2 /* DogStore.swift in Sources */,
+				AA9E8CE522A143F2009CBDA2 /* DogParser.swift in Sources */,
 				AA1FAF0B22A1150F00893D9B /* AppDelegate.swift in Sources */,
-				AA9E8CE322A118D8009CBDA2 /* EntityRepository.swift in Sources */,
+				AA9E8CE922A1446E009CBDA2 /* Dogable.swift in Sources */,
+				AA9E8CE322A118D8009CBDA2 /* DogRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
