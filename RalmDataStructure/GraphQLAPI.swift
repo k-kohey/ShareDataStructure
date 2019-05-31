@@ -9,13 +9,13 @@
 import Foundation
 
 final class GraphQLAPI {
-    struct GeneratedEntity {
+    struct Dog {
         var id: String
     }
     
-    func fetch(id: String) -> GeneratedEntity {
-        return GeneratedEntity(id: "")
+    func fetch(id: String) -> Dog {
+        return Dog(id: "")
     }
 }
 
-extension GraphQLAPI.GeneratedEntity: EntityConvertiable, Encodable {}
+extension GraphQLAPI.Dog: Dogable, Encodable {}

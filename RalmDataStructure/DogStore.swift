@@ -9,20 +9,16 @@
 import Foundation
 import RealmSwift
 
-class RealmEntity: Object, EntityConvertiable {
-    @objc dynamic var id = ""
-}
-
-final class EntityStore {
-    let realm = try! Realm()
+final class DogStore {
+    private let realm = try! Realm()
     
-    func save(_ entity: RealmEntity) {
+    func save(_ entity: Dog) {
         try! realm.write {
             realm.add(entity)
         }
     }
     
-    func load(id: String) -> RealmEntity {
-        return RealmEntity()
+    func load(id: String) -> Dog {
+        return Dog()
     }
 }
